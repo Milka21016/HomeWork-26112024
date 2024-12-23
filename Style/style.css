@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7B3B3;
+    margin: auto 0px;
+    min-width: 200px;
+}
+.container{
+    width: 360px;
+    min-height: 800px;
+    margin: 50px 80px;
+    padding: 20px 24px;
+    border-radius: 20px;
+    background-color: white;
+    display: block;
+
+}
