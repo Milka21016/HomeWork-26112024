@@ -1,7 +1,9 @@
 body
 {
     margin: auto 0px;
-    background-image: url(../Image/Rectangle\ 1.png);
+    background-image: url(..//Image/Rectangle.png);
+    background-size: cover;
+    min-height: 100vh;
 }
 .netflix-logo
 {
@@ -49,11 +51,11 @@ body
 {
     display: inline-block;
 }
-.tex-content
+.content
 {
     padding: 33 20px;
 }
-.genre
+.tipes
 {
 border: 3px solid rgb(255, 255, 255);
 }

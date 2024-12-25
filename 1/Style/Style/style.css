@@ -3,7 +3,6 @@
 }
 body{
     background-color: #F7B3B3;
-    margin: auto 0px;
     min-width: 200px;
     font-family: Inter;
 }
@@ -17,8 +16,9 @@ main
 .container{
 
     min-height: 800px;
-    margin: 50px 80px;
+    width: 200px;
     display: block;
+    margin: auto 0px;
 }
 button
 {
