@@ -1,0 +1,60 @@
+body
+{
+    margin: auto 0px;
+    background-image: url(../Image/Rectangle\ 1.png);
+}
+.netflix-logo
+{
+    width: 156px; 
+    height: 48.33px;  
+    left: 40px;
+    top: 70px;
+    padding: 70 40px;
+    border: 0.07px;
+    position: absolute;
+}
+
+.friday
+{
+/* Friday July 8th */
+    position: absolute;
+    width: 213px;
+    height: 44px;
+    left: 278px;
+    top: 77px;
+    color: rgb(200, 200, 200);
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    
+}
+.fa-magnifying-glass
+{
+    background-color: white;
+}
+.Ellipse2
+{
+    /* Ellipse 2 */
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 1621px;
+    top: 42px;
+}
+.fa-magnifying-glass .Ellipse2
+{
+    display: inline-block;
+}
+.tex-content
+{
+    padding: 33 20px;
+}
+.genre
+{
+border: 3px solid rgb(255, 255, 255);
+}
+
