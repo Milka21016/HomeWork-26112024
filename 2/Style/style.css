@@ -24,7 +24,8 @@ body
     font-size: 1.5rem;
 }
 
-header,main {
+header,
+main {
     width: 93.4%;
     margin: 0 auto;
 }
