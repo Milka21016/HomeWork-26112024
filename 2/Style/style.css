@@ -2,31 +2,53 @@
 {
     box-sizing: border-box;
 }
+:root{
+    --base-color:  rgb(167, 166, 166);
+    --maint-font-family: Inter, sans-serif;
+    --secondary-font-family: Roboto;
+    --main-color: #fff;
+    --active-color: rgb(213, 13, 31);
+}
 body
 {
-    margin: auto 0px;
     background-image: url(..//Image/Rectangle.png);
     background-repeat: no-repeat;
     background-position: top center;
-    font-family: Inter, sans-serif;
+    font-family: var(--maint-font-family);
     font-optical-sizing: auto;
     font-style: normal;
     background-size: cover;
+    font-weight: 400px;
     min-height: 100vh;
-    color: rgb(167, 166, 166);
-    font-size: 24px;
+    color: var(--base-color);
+    font-size: 1.5rem;
+}
+
+header,main {
+    width: 93.4%;
+    margin: 0 auto;
 }
 header
 {
+    padding: 2.62rem 0 7.37rem 0;
     display: flex;
     justify-content: space-between;
     
+}
+.roboto-slab
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: 100%;
+    font-display: swap;
 }
 .netflix-logo
 {
     display: flex;
     justify-content: space-between;
-    column-gap: 50px;
+    align-items: center;
+    column-gap: 42px;
     width: 156px; 
     height: 48.33px;  
     left: 40px;
@@ -36,37 +58,32 @@ header
     position: absolute;
 
 }
-
-.friday
-{
-/* Friday July 8th */
-    position: absolute;
-    width: 213px;
-    height: 29px;
-    left: 278px;
-    top: 77px;
-    color: rgb(200, 200, 200);
-    font-family: "Roboto", serif;
-    font-style: normal;
-    font-size: 24px;
-    font-weight: 500pz;
-    line-height: 29px;
-    text-align: left;
-    border-left: 2px solid white;
-
+.netflix-logo a{
+    display: inline-block;
+    text-decoration: none;
 }
-.friday::before
+.netflix-logo span
+{
+    position: relative;
+}
+.netflix-logo span::before
 {
     content: "";
-    display: inline-block;
-    width: 100px;
-    height: 10px;
-    margin-right: 10px;
+    display: block;
+    position: absolute;
+    background-color: var(--main-color);
+    height: 28px;
+    width: 3px;
+    left: 26px;
+
 }
 .user_block{
     display: flex;
-    align-items: stretch;
-    column-gap: 50px;
+    align-items: center;
+    column-gap: 45px;
+}
+.user_block button{
+    
 }
 .fa-magnifying-glass
 {
@@ -89,6 +106,10 @@ header
     left: 1621px;
     top: 42px;
     color: rgb(255, 255, 255);
+}
+.content
+{
+    width: 50%;
 }
 button
 {
